@@ -17,7 +17,12 @@ const FormInput = ({
         <span className='label-text'>{label}</span>
       </label>
       <label className='input-group input-group-vertical'>
-        <input id={name} type={type} placeholder={placeholder} className='input input-bordered' />
+        <input
+          id={name}
+          type={type}
+          placeholder={placeholder}
+          className='input input-bordered input-md'
+        />
       </label>
     </div>
   );

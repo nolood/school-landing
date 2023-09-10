@@ -4,15 +4,15 @@ import ThemeSelect from '@/features/change-theme/ui/theme-select';
 
 const Header = () => {
   return (
-    <section className='section'>
+    <section className='section bg-base-200'>
       <div className='container'>
-        <div className='navbar bg-base-200 rounded-xl'>
+        <div className='navbar rounded-xl'>
           <div className='navbar-start w-2/6'>
             <Link href='/' className='btn btn-ghost normal-case text-xl'>
               Logo
             </Link>
           </div>
-          <div className='navbar-center md:hidden'>
+          <nav className='navbar-center md:hidden'>
             <ul className='menu menu-horizontal px-1'>
               <li>
                 <Link href='/'>Main</Link>
@@ -27,7 +27,7 @@ const Header = () => {
                 <Link href='/'>Info</Link>
               </li>
             </ul>
-          </div>
+          </nav>
           <div className='navbar-end gap-2 md:hidden'>
             <Link href='/login' className='btn btn-ghost normal-case'>
               Login

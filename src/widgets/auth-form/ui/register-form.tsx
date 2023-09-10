@@ -4,11 +4,11 @@ import { FormInput } from '@/features/form-input/ui';
 
 const RegisterForm = () => {
   return (
-    <div className='card bg-base-200 w-full mt-20'>
+    <div className='card bg-base-200 w-full my-5'>
       <div className='card-body items-center text-center'>
         <h1 className='card-title text-4xl mb-12'>Register</h1>
-        <form className='flex flex-col gap-6 w-full'>
-          <FormInput label='username' type='text' name='username' placeholder='Ivan' />
+        <form className='flex flex-col gap-4 w-full'>
+          <FormInput label='Username' type='text' name='username' placeholder='Ivan' />
           <FormInput label='Password' type='password' name='password' placeholder='**********' />
           <FormInput
             label='Confirm Password'

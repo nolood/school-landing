@@ -7,10 +7,10 @@ const LoginForm = () => {
     e.preventDefault();
   };
   return (
-    <div className='card bg-base-200 w-full mt-20'>
+    <div className='card bg-base-200 w-full my-5'>
       <div className='card-body items-center text-center'>
         <h1 className='card-title text-4xl mb-12'>Login</h1>
-        <form onSubmit={handleSubmit} className='flex flex-col gap-6 w-full'>
+        <form onSubmit={handleSubmit} className='flex flex-col gap-4 w-full'>
           <FormInput label='Your Email' type='email' name='email' placeholder='info@site.com' />
           <FormInput
             label='Your Password'
